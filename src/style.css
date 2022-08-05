@@ -108,6 +108,15 @@ a {
   line-height: 2;
 }
 
+.content i {
+  font-size: 30px;
+}
+
+.content a {
+  color: #212529;
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 75px 15px;
