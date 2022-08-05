@@ -1,6 +1,4 @@
 :root {
-  --heading-font-family: "Poppins", sans-serif;
-  --content-font-family: "Playfair Display", serif;
   --branding-color: #ffcab0;
 }
 
@@ -8,12 +6,48 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: var(--heading-font-family);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
 }
 
 p {
-  font-family: var(--content-font-family);
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav li.active a {
+  color: #4c3a51;
+}
+
+nav a {
+  color: #e7ab79;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--branding-color);
 }
 
 a {
@@ -21,9 +55,24 @@ a {
   text-decoration: none;
 }
 
+.nav-container {
+  background: #f4ebe6;
+  padding: 0 30px;
+}
+
+#logo,
+#logo-small {
+  font-family: "Kaushan Script", cursive;
+}
+
+#logo a,
+#logo-small a {
+  color: #000;
+}
+
 .hero {
   background: #ffebbb;
-  padding: 130px 30px;
+  padding: 100px 30px;
 }
 
 .hero h1 {
@@ -81,12 +130,12 @@ a {
 }
 
 .content-container {
-  padding: 130px 30px;
+  padding: 30px;
 }
 
 .content {
   margin: 30px;
- }
+}
 
 .content h2 {
   font-size: 50px;
@@ -118,6 +167,12 @@ a {
 }
 
 @media (max-width: 992px) {
+  nav {
+    padding: 10px;
+  }
+  nav ul {
+    font-size: 12px;
+  }
   .hero {
     padding: 75px 15px;
   }
@@ -138,10 +193,8 @@ a {
   .project-description {
     padding: 0;
     text-align: center;
-  }  
+  }
   .content h2 {
     font-size: 40px;
   }
 }
-
-/*font-family: 'Kaushan Script', cursive;
