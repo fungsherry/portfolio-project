@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Project</title>
+    <meta
+      name="description"
+      content="Sherry is a front-end developer from Hong Kong."
+    />
+    <title>Front-end Developer - Sherry Fung</title>
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,23 +36,23 @@
     <div class="nav-container">
       <nav class="d-flex justify-content-between">
         <h3 class="d-none d-md-block" id="logo">
-          <a href="/">Sherry Fung</a>
+          <a href="/" title="Homepage">Sherry Fung</a>
         </h3>
         <h3 class="d-block d-md-none" id="logo-small">
-          <a href="/">SF</a>
+          <a href="/" title="Homepage">SF</a>
         </h3>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Sherry">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Sherry's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Sherry">Contact</a>
           </li>
         </ul>
       </nav>
@@ -68,7 +72,7 @@
           <img
             src="images/yogurt.png"
             class="img-fluid p-2 border rounded"
-            alt=""
+            alt="Yougurt project preview"
           />
         </div>
         <div class="col">
@@ -80,7 +84,10 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-outline-branding" id="project-button"
+            <a
+              href="/work.html"
+              class="btn btn-outline-branding"
+              id="project-button"
               >Learn more →</a
             >
           </div>
@@ -96,7 +103,10 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-outline-branding" id="project-button"
+            <a
+              href="/work.html"
+              class="btn btn-outline-branding"
+              id="project-button"
               >Learn more →</a
             >
           </div>
@@ -105,7 +115,7 @@
           <img
             src="images/weather.png"
             class="img-fluid p-2 border rounded"
-            alt=""
+            alt="Weather app preview"
           />
         </div>
       </div>
@@ -114,7 +124,7 @@
           <img
             src="images/yoga.png"
             class="img-fluid p-2 border rounded"
-            alt=""
+            alt="Yoga project preview"
           />
         </div>
         <div class="col">
@@ -126,33 +136,26 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-outline-branding" id="project-button"
+            <a
+              href="/work.html"
+              class="btn btn-outline-branding"
+              id="project-button"
               >Learn more →</a
             >
           </div>
         </div>
       </div>
     </div>
-    <footer class="p-3">
-      <a
-        href="mailto:fung.sherryf@gmail.com"
-        class="text-decoration-none text-dark"
-        >fung.sherryf@gmail.com</a
-      >
-      <div class="social-link">
+    <footer class="mt-5 p-3">
+      <p class="text-muted">
+        This project was coded by Sherry Fung and is
         <a
           href="https://github.com/fungsherry/portfolio-project"
           target="_blank"
-          class="p-4"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="https://www.facebook.com/sherryfungFS" class="p-4"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-        <a href="https://www.instagram.com/fungsherry/" class="p-4"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-      </div>
+        >
+          open-sourced</a
+        >
+      </p>
     </footer>
   </body>
 </html>
