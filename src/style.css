@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: var(--heading-font-family);
 }
 
@@ -41,10 +41,6 @@ a {
 .hero p {
   font-size: 24px;
   padding-bottom: 30px;
-}
-
-.container {
-  text-align: left;
 }
 
 .container h5 {
@@ -84,20 +80,30 @@ a {
   color: #fff;
 }
 
-.about-section {
+.content-container {
   padding: 130px 30px;
 }
 
-.about-section-content h2 {
+.content {
+  margin: 30px;
+ }
+
+.content h2 {
   font-size: 50px;
   font-weight: 600;
 }
 
-.about-section-content h6 {
-  font-size: 22px;
+.content h4 {
+  font-size: 30px;
 }
 
-.about-section-content p {
+.content h6 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.content p {
   font-size: 17px;
   line-height: 2;
 }
@@ -107,7 +113,7 @@ a {
     padding: 75px 15px;
   }
   .hero h1 {
-    font-size: 57px;
+    font-size: 55px;
   }
   .hero p {
     font-size: 20px;
@@ -123,8 +129,10 @@ a {
   .project-description {
     padding: 0;
     text-align: center;
+  }  
+  .content h2 {
+    font-size: 40px;
   }
-  
 }
 
 /*font-family: 'Kaushan Script', cursive;
