@@ -1,5 +1,6 @@
 :root {
   --branding-color: #ffcab0;
+  --secondary-color: #e7ab79;
 }
 
 body {
@@ -42,7 +43,7 @@ nav li.active a {
 }
 
 nav a {
-  color: #e7ab79;
+  color: var(--secondary-color);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
@@ -94,6 +95,11 @@ footer,
   margin: 0;
 }
 
+.hero a {
+  font-size: 25px;
+  color: #4c3a51;
+}
+
 .hero p {
   font-size: 24px;
   padding-bottom: 30px;
@@ -102,7 +108,7 @@ footer,
 .container h5 {
   font-size: 35px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .container p {
@@ -121,19 +127,33 @@ footer,
   color: #fff;
   font-size: 18px;
   padding: 15px 25px;
-  border-radius: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #project-button {
   background: transparent;
   border: 1px solid var(--branding-color);
+  border-radius: 30px;
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 #project-button:hover {
   background: var(--branding-color);
   color: #fff;
+}
+
+#resume-button {
+  background: var(--branding-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 30px;
+  color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+#resume-button:hover {
+  background: transparent;
+  color: var(--branding-color);
 }
 
 .content-container {
@@ -171,11 +191,28 @@ footer,
 .content a {
   color: #212529;
   text-decoration: none;
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .content a:hover {
-  color: #e7ab79;
+  color: var(--secondary-color);
+}
+
+.resume-container {
+  margin-bottom: 30px;
+  padding: 0 80px;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 2;
+  border: 2px dotted var(--branding-color);
+  border-radius: 10px;
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  margin: 0 200px;
+  padding: 20px 120px;
+  border-radius: 5px;
 }
 
 @media (max-width: 992px) {

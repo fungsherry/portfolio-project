@@ -32,6 +32,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  </head>
   <body>
     <div class="nav-container">
       <nav class="d-flex justify-content-between">
@@ -61,17 +62,25 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="content text-start">
-            <h2 class="mb-3">Hello! I am Sherry Fung</h2>
-            <h4 class="mb-5">A coding newbie from Hong Kong 🇭🇰</h4>
-            <p class="mb-4">
+            <h3 class="mb-3">Hello! I am Sherry Fung</h3>
+            <p class="mb-5">A coding newbie from Hong Kong 🇭🇰</p>
+            <p class="mb-5">
               I was born and raised in Hong Kong. I did not formally study
               computer science before. I found the SheCodes coding workshop as a
               serendipitous result and thus started my coding journey out of
               curiosity.
             </p>
-            <a href="/work.html" class="btn btn-branding" id="project-button"
-              >See my projects</a
-            >
+            <div class="d-flex justify-content-evenly">
+              <a href="/work.html" class="btn btn-branding" id="project-button"
+                >See my projects</a
+              >
+              <a
+                href="/about.html#resume"
+                class="btn btn-outline-branding"
+                id="resume-button"
+                >View my resume</a
+              >
+            </div>
           </div>
         </div>
         <div class="col-lg-6 text-center">
@@ -80,6 +89,69 @@
             alt="Sherry's profile picture"
             class="img-fluid rounded"
           />
+        </div>
+      </div>
+    </div>
+    <div class="container resume-container">
+      <div class="content text-start" id="resume">
+        <h3 class="mb-5">My Resume</h3>
+        <h3>Education</h3>
+        <div class="row">
+          <div class="col-2">2020 – 2022</div>
+          <div class="col-10 mb-3">
+            School of Professional Education and Executive Development, The Hong
+            Kong Polytechnic University
+            <br />
+            Bachelor of Science in Applied Sciences (Health Studies)
+          </div>
+          <div class="col-2">2017 – 2019</div>
+          <div class="col-10 mb-3">
+            Hong Kong Institute of Vocational Education (Tsing Yi)
+            <br />
+            Higher Diploma in Aircraft Maintenance Engineering
+          </div>
+          <div class="col-2">2011 – 2017</div>
+          <div class="col-10 mb-3">
+            Shatin Tsung Tsin Secondary School
+            <br />
+            Hong Kong Diploma of Secondary Education (2017)
+          </div>
+        </div>
+        <h3 class="pt-3">Licenses & Certifications</h3>
+        <ul>
+          <li class="mb-2">
+            <a
+              href="https://www.shecodes.io/certificates/c690b152c785d5e6231bba55bb1608cf"
+              target="_blank"
+              title="SheCodes Basics Verified Certificate"
+            >
+              SheCodes Basics</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.shecodes.io/certificates/8513caf2c93ee16991575c52b055ec98"
+              target="_blank"
+              title="SheCodes Plus Verified Certificate"
+              >SheCodes Plus</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div class="contact-box justify-content-between d-none d-md-flex">
+        <div>
+          <h3 class="mt-3">Work Inquiry</h3>
+          <p>Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            id="contact-button"
+            >Stay connected</a
+          >
         </div>
       </div>
     </div>
