@@ -198,6 +198,25 @@ footer,
   color: var(--secondary-color);
 }
 
+.skill-container {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding: 25px;
+  background: #ffebbb96;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  border-radius: 5px;
+}
+
+.skill-container img {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  max-width: 25%;
+  max-height: 50%;
+}
+
 .resume-container {
   margin-bottom: 30px;
   padding: 0 80px;
